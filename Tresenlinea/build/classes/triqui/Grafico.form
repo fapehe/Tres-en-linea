@@ -32,9 +32,9 @@
                           <Component id="Boton0" pref="80" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="Casilla2" pref="80" max="32767" attributes="0"/>
-                          <Component id="Boton1" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="Boton1" min="-2" pref="80" max="-2" attributes="0"/>
+                          <Component id="Casilla1" min="-2" pref="80" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
@@ -53,14 +53,16 @@
                       </Group>
                   </Group>
               </Group>
-              <EmptySpace pref="89" max="32767" attributes="0"/>
-              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                  <Component id="Casilla1" alignment="0" pref="80" max="32767" attributes="0"/>
-                  <Component id="Casilla5" alignment="0" pref="80" max="32767" attributes="0"/>
-                  <Component id="Casilla8" alignment="0" pref="80" max="32767" attributes="0"/>
-                  <Component id="Boton2" alignment="0" pref="80" max="32767" attributes="0"/>
-                  <Component id="Boton5" max="32767" attributes="0"/>
-                  <Component id="Boton8" max="32767" attributes="0"/>
+              <EmptySpace pref="92" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="Casilla5" alignment="0" pref="80" max="32767" attributes="0"/>
+                      <Component id="Casilla8" alignment="0" pref="80" max="32767" attributes="0"/>
+                      <Component id="Boton2" alignment="0" pref="80" max="32767" attributes="0"/>
+                      <Component id="Boton5" max="32767" attributes="0"/>
+                      <Component id="Boton8" max="32767" attributes="0"/>
+                  </Group>
+                  <Component id="Casilla2" alignment="1" min="-2" pref="80" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
@@ -68,12 +70,14 @@
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
               <EmptySpace max="32767" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="Casilla0" alignment="3" min="-2" pref="80" max="-2" attributes="0"/>
-                  <Component id="Casilla2" alignment="3" min="-2" pref="80" max="-2" attributes="0"/>
-                  <Component id="Casilla1" alignment="3" min="-2" pref="80" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Casilla0" alignment="3" min="-2" pref="80" max="-2" attributes="0"/>
+                      <Component id="Casilla1" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="Casilla2" min="-2" pref="80" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -116,6 +120,9 @@
     <Component class="javax.swing.JLabel" name="Casilla1">
     </Component>
     <Component class="javax.swing.JLabel" name="Casilla2">
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Casilla2MouseClicked"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="Casilla3">
     </Component>
@@ -141,32 +148,48 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="Jugar"/>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Boton1MouseClicked"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="Boton2">
       <Properties>
         <Property name="text" type="java.lang.String" value="Jugar"/>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Boton2MouseClicked"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="Boton3">
       <Properties>
         <Property name="text" type="java.lang.String" value="Jugar"/>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Boton3MouseClicked"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="Boton4">
       <Properties>
         <Property name="text" type="java.lang.String" value="Jugar"/>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Boton4MouseClicked"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="Boton5">
       <Properties>
         <Property name="text" type="java.lang.String" value="Jugar"/>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Boton5MouseClicked"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="Boton6">
       <Properties>
         <Property name="text" type="java.lang.String" value="Jugar"/>
       </Properties>
       <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Boton6MouseClicked"/>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Boton6ActionPerformed"/>
       </Events>
     </Component>
@@ -175,6 +198,7 @@
         <Property name="text" type="java.lang.String" value="Jugar"/>
       </Properties>
       <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Boton7MouseClicked"/>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Boton7ActionPerformed"/>
       </Events>
     </Component>
@@ -183,6 +207,7 @@
         <Property name="text" type="java.lang.String" value="Jugar"/>
       </Properties>
       <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Boton8MouseClicked"/>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Boton8ActionPerformed"/>
       </Events>
     </Component>

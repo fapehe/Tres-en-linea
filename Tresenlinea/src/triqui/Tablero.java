@@ -17,7 +17,7 @@ public class Tablero {
    void calcular(){
        
    }
-   String simbolo(){
+   public String simbolo(){
        if (turno==0){
            turno=1;
            return "X";
