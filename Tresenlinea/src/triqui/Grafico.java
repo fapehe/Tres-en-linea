@@ -226,12 +226,13 @@ public class Grafico extends javax.swing.JFrame {
     private void Boton0MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Boton0MouseClicked
         // TODO add your handling code here:
         this.Casilla0.setText(this.tabGraf.simbolo());
-        
+        this.tabGraf.tablero[0][0]=this.Casilla0.getText();
     }//GEN-LAST:event_Boton0MouseClicked
 
     private void Boton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Boton1MouseClicked
         // TODO add your handling code here:
         this.Casilla1.setText(this.tabGraf.simbolo());
+        this.tabGraf.tablero[0][1]=this.Casilla0.getText();
     }//GEN-LAST:event_Boton1MouseClicked
 
     private void Casilla2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Casilla2MouseClicked
@@ -241,36 +242,43 @@ public class Grafico extends javax.swing.JFrame {
     private void Boton2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Boton2MouseClicked
         // TODO add your handling code here:
         this.Casilla2.setText(this.tabGraf.simbolo());
+        this.tabGraf.tablero[0][2]=this.Casilla0.getText();
     }//GEN-LAST:event_Boton2MouseClicked
 
     private void Boton3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Boton3MouseClicked
         // TODO add your handling code here:
         this.Casilla3.setText(this.tabGraf.simbolo());
+        this.tabGraf.tablero[1][0]=this.Casilla0.getText();
     }//GEN-LAST:event_Boton3MouseClicked
 
     private void Boton4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Boton4MouseClicked
         // TODO add your handling code here:
         this.Casilla4.setText(this.tabGraf.simbolo());
+        this.tabGraf.tablero[1][1]=this.Casilla0.getText();
     }//GEN-LAST:event_Boton4MouseClicked
 
     private void Boton5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Boton5MouseClicked
         // TODO add your handling code here:
         this.Casilla5.setText(this.tabGraf.simbolo());
+        this.tabGraf.tablero[1][2]=this.Casilla0.getText();
     }//GEN-LAST:event_Boton5MouseClicked
 
     private void Boton6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Boton6MouseClicked
         // TODO add your handling code here:
         this.Casilla6.setText(this.tabGraf.simbolo());
+        this.tabGraf.tablero[2][0]=this.Casilla0.getText();
     }//GEN-LAST:event_Boton6MouseClicked
 
     private void Boton7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Boton7MouseClicked
         // TODO add your handling code here:
         this.Casilla7.setText(this.tabGraf.simbolo());
+        this.tabGraf.tablero[2][1]=this.Casilla0.getText();
     }//GEN-LAST:event_Boton7MouseClicked
 
     private void Boton8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Boton8MouseClicked
         // TODO add your handling code here:
         this.Casilla8.setText(this.tabGraf.simbolo());
+        this.tabGraf.tablero[2][2]=this.Casilla0.getText();
     }//GEN-LAST:event_Boton8MouseClicked
 
     /**

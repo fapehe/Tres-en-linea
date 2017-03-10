@@ -11,7 +11,7 @@ package triqui;
  */
 public class Tablero {
 
-    char fichas []=new char [9]; 
+    String tablero [][]=new String[3][3] ; 
     int turno=0;
 
    void calcular(){
