@@ -18,14 +18,14 @@ public class Tablero {
        
        for (int i=0;i<3;i++)
        {
-         if(tablero[i][0].equals(tablero[i][1])&& tablero[i][0].equals(tablero[i][2]))
+         if(tablero[i][0].equals(tablero[i][1])&& tablero[i][0].equals(tablero[i][2])&& tablero[i][1].equals(tablero[i][2]))
             {
                 return "Ganador";
             }  
        }
        for (int i=0;i<3;i++)
        {
-         if(tablero[0][i].equals(tablero[1][0])&& tablero[0][i].equals(tablero[2][i]))
+         if(tablero[0][i].equals(tablero[1][i])&& tablero[0][i].equals(tablero[2][i])&& tablero[1][i].equals(tablero[2][i]))
             {
                 return "Ganador";
             }  
@@ -36,7 +36,7 @@ public class Tablero {
        }
        if(tablero[0][2].equals(tablero[1][1])&& tablero[0][2].equals(tablero[2][0]))
        {
-           return "juege ahora (empiezan las X)";
+           return "Ganador";
        }
         
        return " ";    
