@@ -17,18 +17,16 @@ public class Tablero {
    void calcular(){
        
    }
-   String ficha(){
+   String simbolo(){
        if (turno==0){
-           return "X";
            turno=1;
+           return "X";
        }
        else
        {
-           return "O";
            turno=0;
+           return "O";
        }
-       
-       
    }
            
             

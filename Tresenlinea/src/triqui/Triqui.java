@@ -22,6 +22,9 @@ public class Triqui {
         
         Grafico miGraf=new Grafico();
         miGraf.setVisible(true);
+        
+        miGraf.tabGraf=miTab;
+        
     }
     
 }

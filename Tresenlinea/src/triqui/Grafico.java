@@ -10,6 +10,7 @@ package triqui;
  * @author Estudiantes
  */
 public class Grafico extends javax.swing.JFrame {
+    Tablero tabGraf;
 
     /**
      * Creates new form Grafico
@@ -176,7 +177,8 @@ public class Grafico extends javax.swing.JFrame {
 
     private void Boton0MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Boton0MouseClicked
         // TODO add your handling code here:
-        this.Casilla0.setText("X");
+        this.Casilla0.setText(this.tabGraf.simbolo());
+        this.setEnabled(false);
     }//GEN-LAST:event_Boton0MouseClicked
 
     /**
