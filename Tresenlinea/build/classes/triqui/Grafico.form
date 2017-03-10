@@ -25,44 +25,49 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="Casilla0" max="32767" attributes="0"/>
-                          <Component id="Boton0" pref="80" max="32767" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="Boton1" min="-2" pref="80" max="-2" attributes="0"/>
-                          <Component id="Casilla1" min="-2" pref="80" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="Casilla3" pref="80" max="32767" attributes="0"/>
-                          <Component id="Boton3" alignment="0" max="32767" attributes="0"/>
-                          <Component id="Casilla6" alignment="0" pref="80" max="32767" attributes="0"/>
-                          <Component id="Boton6" alignment="0" max="32767" attributes="0"/>
-                      </Group>
-                      <EmptySpace pref="81" max="32767" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="Casilla7" alignment="0" pref="80" max="32767" attributes="0"/>
-                          <Component id="Boton4" alignment="1" max="32767" attributes="0"/>
-                          <Component id="Casilla4" alignment="1" pref="80" max="32767" attributes="0"/>
-                          <Component id="Boton7" max="32767" attributes="0"/>
-                      </Group>
-                  </Group>
-              </Group>
-              <EmptySpace pref="92" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
-                      <Component id="Casilla5" alignment="0" pref="80" max="32767" attributes="0"/>
-                      <Component id="Casilla8" alignment="0" pref="80" max="32767" attributes="0"/>
-                      <Component id="Boton2" alignment="0" pref="80" max="32767" attributes="0"/>
-                      <Component id="Boton5" max="32767" attributes="0"/>
-                      <Component id="Boton8" max="32767" attributes="0"/>
+                  <Component id="Resultado" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="Casilla0" max="32767" attributes="0"/>
+                                  <Component id="Boton0" pref="80" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="Boton1" min="-2" pref="80" max="-2" attributes="0"/>
+                                  <Component id="Casilla1" min="-2" pref="80" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="Casilla3" pref="80" max="32767" attributes="0"/>
+                                  <Component id="Boton3" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="Casilla6" alignment="0" pref="80" max="32767" attributes="0"/>
+                                  <Component id="Boton6" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace pref="81" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="Casilla7" alignment="0" pref="80" max="32767" attributes="0"/>
+                                  <Component id="Boton4" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="Casilla4" alignment="1" pref="80" max="32767" attributes="0"/>
+                                  <Component id="Boton7" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="92" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="Casilla5" alignment="0" pref="80" max="32767" attributes="0"/>
+                              <Component id="Casilla8" alignment="0" pref="80" max="32767" attributes="0"/>
+                              <Component id="Boton2" alignment="0" pref="80" max="32767" attributes="0"/>
+                              <Component id="Boton5" max="32767" attributes="0"/>
+                              <Component id="Boton8" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="Casilla2" alignment="1" min="-2" pref="80" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
-                  <Component id="Casilla2" alignment="1" min="-2" pref="80" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
@@ -70,10 +75,10 @@
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="1" attributes="0">
-              <EmptySpace max="32767" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="103" groupAlignment="3" attributes="0">
+                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
                       <Component id="Casilla0" alignment="3" min="-2" pref="80" max="-2" attributes="0"/>
                       <Component id="Casilla1" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
                   </Group>
@@ -109,7 +114,9 @@
                   <Component id="Boton7" min="-2" pref="23" max="-2" attributes="0"/>
                   <Component id="Boton8" min="-2" pref="23" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="Resultado" pref="64" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -210,6 +217,11 @@
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Boton8MouseClicked"/>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Boton8ActionPerformed"/>
       </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Resultado">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="juege ahora (empiezan las X)"/>
+      </Properties>
     </Component>
   </SubComponents>
 </Form>

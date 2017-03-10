@@ -14,8 +14,32 @@ public class Tablero {
     String tablero [][]=new String[3][3] ; 
     int turno=0;
 
-   void calcular(){
+   String calcular(){
        
+       for (int i=0;i<3;i++)
+       {
+         if(tablero[i][0].equals(tablero[i][1])&& tablero[i][0].equals(tablero[i][2]))
+            {
+                return "Ganador";
+            }  
+       }
+       for (int i=0;i<3;i++)
+       {
+         if(tablero[0][i].equals(tablero[1][0])&& tablero[0][i].equals(tablero[2][i]))
+            {
+                return "Ganador";
+            }  
+       }
+       if(tablero[0][0].equals(tablero[1][1])&& tablero[0][0].equals(tablero[2][2]))
+       {
+           return "Ganador";
+       }
+       if(tablero[0][2].equals(tablero[1][1])&& tablero[0][2].equals(tablero[2][0]))
+       {
+           return "juege ahora (empiezan las X)";
+       }
+        
+       return " ";    
    }
    public String simbolo(){
        if (turno==0){
