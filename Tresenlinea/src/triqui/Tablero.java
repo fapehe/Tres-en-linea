@@ -11,35 +11,32 @@ package triqui;
  */
 public class Tablero {
 
+    
+
+    
     String tablero [][]=new String[3][3] ; 
     int turno=0;
+    public Tablero() {
+        for(int i=0;i<3;i++)
+        {
+            for(int j=0;j<3;j++)
+            {
+                tablero[i][j]=new String();
+                tablero[i][j]=Integer.toString(i);
+            }
+        }
+    }
 
    String calcular(){
        
-       for (int i=0;i<3;i++)
+       if((tablero[0][1].equals(tablero[0][0])) && (tablero[0][2].equals(tablero[0][0])))
        {
-         if(tablero[i][0].equals(tablero[i][1])&& tablero[i][0].equals(tablero[i][2])&& tablero[i][1].equals(tablero[i][2]))
-            {
-                return "Ganador";
-            }  
+           return "GANADOR";
        }
-       for (int i=0;i<3;i++)
+       else
        {
-         if(tablero[0][i].equals(tablero[1][i])&& tablero[0][i].equals(tablero[2][i])&& tablero[1][i].equals(tablero[2][i]))
-            {
-                return "Ganador";
-            }  
+           return "SIGUE JUGANDO";
        }
-       if(tablero[0][0].equals(tablero[1][1])&& tablero[0][0].equals(tablero[2][2]))
-       {
-           return "Ganador";
-       }
-       if(tablero[0][2].equals(tablero[1][1])&& tablero[0][2].equals(tablero[2][0]))
-       {
-           return "Ganador";
-       }
-        
-       return " ";    
    }
    public String simbolo(){
        if (turno==0){
